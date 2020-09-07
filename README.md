@@ -14,6 +14,10 @@ Verify that the remote url has changed:
 
     git remote -v
 
+Push files to your repository:
+
+    git push -u origin master
+
 
 ## Install
 
