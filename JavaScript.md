@@ -63,11 +63,91 @@ Loop through an array
 
     for (i = 0; i < fruits.length; i++) { ... }
 
-add new array element
+add and remove array elements
 
     var fruits = ["Banana", "Orange", "Apple", "Mango"];
-    fruits.push("Lemon"); //adds the element Lemon to fruits
 
+    fruits.push("Lemon"); //adds the element Lemon at the end of fruits
+    fruits.pop(); //deletes last element of the array
+    fruits.shift(); //deletes the first element of the array
+    fruits.unshift('Kiwi'); //adds a new element to the beginning of fruits
+
+Spilce & Slice
+
+>Splice can do everything (insert, remove and replace elements)
+
+    arrayName.splice(startindex, deleteCount, elem1, elemN); //starts from startindex, removes deleteCount elements and then inserts elem1, ..., elemN at their place.
+
+    arr.splice(2, 0, "complex", "language"); //inserts elements without any removals (deleteCount = 0)
+
+    let arr = [1, 2, 5];
+    arr.splice(-1, 0, 3, 4); //ein negativer Index wird vom Arrayende aus gezählt, arr ist nun [1, 2, 3, 4, 5]
+
+Wenn man splice einer variable zuweist werden die entfernten Elemente übergeben
+
+    let removed = arr.splice(0,2);
+
+Concat
+
+    arr.concat([1,2], 3, 4); //adds an array and the values 3 and 4 to the array arr
+
+## Searching in arrays
+
+    arr.indexOf(item, from) - looks for item starting from index from, and returns the index where it was found, otherwise -1.
+    arr.lastIndexOf(item, from) – same, but looks for from right to left.
+    arr.includes(item, from) – looks for item starting from index from, returns true if found.
+
+find
+
+    let users = [
+     {id: 1, name: "John"},
+     {id: 2, name: "Pete"},
+     {id: 3, name: "Mary"}
+    ];
+    let user = users.find(item => item.id == 1);
+    alert(user.name); // John
+
+filter
+
+    let users = [
+     {id: 1, name: "John"},
+     {id: 2, name: "Pete"},
+     {id: 3, name: "Mary"}
+    ];
+    let someUsers = users.filter(item => item.id < 3);
+    alert(someUsers.length); // 2
+
+## Transform an array
+
+map
+
+    let result = arr.map(function(item, index, array) {
+    // returns the new value instead of item
+    });
+
+sort(fn)
+
+    let arr = [ 1, 2, 15 ];
+    console.log(arr.sort()); // 1, 15, 2 weil es sortiert alles wie Strings
+
+Eigene Sortierung machen
+
+    function compareNumeric(a, b) {
+    if (a > b) return 1;
+    if (a == b) return 0;
+    if (a < b) return -1;
+    }
+
+    let arr = [ 1, 2, 15 ];
+
+    arr.sort(compareNumeric);
+
+    console.log(arr);  // 1, 2, 15
+
+Sortieren mit Sonderzeichen
+
+    let countries = ['Österreich', 'Andorra', 'Vietnam'];
+    countries.sort( (a, b) => a.localeCompare(b) ) ); //Andorra, Österreich, Vietnam
 
 ## Array Methoden
 
