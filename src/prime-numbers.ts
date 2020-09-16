@@ -33,8 +33,8 @@ class PrimeNumbers {
     alert(someUsers.length); // 2 */
 
     primesInRange2(limit: number) {
-  /*       let range = Array.from(Array(limit).keys());
-        range = range.filter(this.isPrimeNumber); */
+  /*       let range = Array.from(Array(limit).keys()); // fills the Array range with numbers from 1 - (limit)
+        range = range.filter(this.isPrimeNumber); */ //filters all numbers out that receive false from the isPrimeNumber function
         return Array.from(Array(limit).keys()).filter(this.isPrimeNumber); //macht das gleiche wie die obigen zwei Lines
     }
 }
