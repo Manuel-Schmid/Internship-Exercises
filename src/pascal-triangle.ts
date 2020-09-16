@@ -15,10 +15,10 @@ class PascalTriangle {
         return pTriangle;
 
     }
-    generateLastRow(rows: number){
-        //let triangle = [];
+     generateLastRow(rows: number){
         let triangle = this.generateTriangle(rows);
+        //return triangle;
         return triangle[triangle.length - 1];
-    }
+    } 
 }
 export default PascalTriangle; 

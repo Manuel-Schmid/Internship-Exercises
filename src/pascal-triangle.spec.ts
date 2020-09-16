@@ -29,13 +29,12 @@ describe ('PascalTriangle', () => {
             [1, 3, 3, 1],
             [1, 4, 6, 4, 1]
           ]);
-    })
-    /* ,
+    }),
     it("Test get generate last row of a Pascal Triangle with 4 rows", () => {
         const example = new PascalTriangle()
         const result = example.generateLastRow(4);
         expect(result).toEqual([
-            [1, 3, 3, 1]
+            1, 3, 3, 1
           ]);
-    })     */
+    })
 }); 
