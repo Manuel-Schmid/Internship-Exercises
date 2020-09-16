@@ -15,5 +15,28 @@ class PrimeNumbers {
         }
         return true;
     }
+
+
+
+    primesInRange(limit: number) {
+
+        let result = [];
+        for (let num = 0; num <= limit; num++) {
+            if (this.isPrimeNumber(num)/*  === true */) {
+                result.push(num);
+            }                    
+        }   
+        return result;
+    }
+
+   /*  let someUsers = users.filter(item => item.id < 3);
+    alert(someUsers.length); // 2 */
+
+    primesInRange2(limit: number) {
+  /*       let range = Array.from(Array(limit).keys());
+        range = range.filter(this.isPrimeNumber); */
+        return Array.from(Array(limit).keys()).filter(this.isPrimeNumber); //macht das gleiche wie die obigen zwei Lines
+    }
 }
 export default PrimeNumbers;
+
