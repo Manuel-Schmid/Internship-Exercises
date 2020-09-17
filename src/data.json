@@ -1,0 +1,97 @@
+{
+  "special": [
+    {
+      "date": "2020-12-24",
+      "openingHours": [
+        {
+          "close": "16:00",
+          "open": "09:00"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-25",
+      "openingHours": []
+    }
+  ],
+  "weekly": [
+    {
+      "dayNumber": 0,
+      "openingHours": []
+    },
+    {
+      "dayNumber": 1,
+      "openingHours": [
+        {
+          "close": "09:00",
+          "open": "08:00"
+        },
+        {
+          "close": "18:30",
+          "open": "13:30"
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "openingHours": [
+        {
+          "close": "09:00",
+          "open": "08:00"
+        },
+        {
+          "close": "18:30",
+          "open": "13:30"
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "openingHours": [
+        {
+          "close": "09:00",
+          "open": "08:00"
+        },
+        {
+          "close": "18:30",
+          "open": "13:30"
+        }
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "openingHours": [
+        {
+          "close": "09:00",
+          "open": "08:00"
+        },
+        {
+          "close": "18:30",
+          "open": "13:30"
+        }
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "openingHours": [
+        {
+          "close": "09:00",
+          "open": "08:00"
+        },
+        {
+          "close": "18:30",
+          "open": "13:30"
+        }
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "openingHours": [
+        {
+          "close": "17:00",
+          "open": "09:00"
+        }
+      ]
+    }
+  ]
+}
