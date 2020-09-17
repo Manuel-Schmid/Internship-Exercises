@@ -15,7 +15,7 @@ class Anagram {
         word = word.split('').sort().join('');//zu array machen, sortieren, wieder zu String machen
         let result = [];
         for (let i = 0; i < wordlist.length; i++) { 
-            let sortedWord = wordlist[i].split('').sort().join('');//jeder wort der wordlist zu array machen, sortieren, wieder zu String machen
+            let sortedWord = wordlist[i].split('').sort().join('');//jedes wort der wordlist zu array machen, sortieren, wieder zu String machen
 
             if (word === sortedWord) {
                 result.push(wordlist[i]);
