@@ -17,7 +17,6 @@ class PrimeNumbers {
     }
 
 
-
     primesInRange(limit: number) {
 
         let result = [];
@@ -28,9 +27,6 @@ class PrimeNumbers {
         }   
         return result;
     }
-
-   /*  let someUsers = users.filter(item => item.id < 3);
-    alert(someUsers.length); // 2 */
 
     primesInRange2(limit: number) {
   /*       let range = Array.from(Array(limit).keys()); // fills the Array range with numbers from 1 - (limit)
