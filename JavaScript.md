@@ -156,3 +156,13 @@ toString()
     var fruits = ["Banana", "Orange", "Apple", "Mango"];
     fruitstring = fruits.toString(); //converts Attay into String: 
 
+
+## Declarations
+
+    var variable2;      //var is function scoped, available inside the function
+    let variable1;      //let is block scoped, only available inside the "block"
+    const variable3;    //exactly like "let" but the assigned value of it is constant, you can't reassign it
+
+## Eigene Datentypen erstellen
+
+    type OpeningHour = { open: string; close: string; }; //Erstellt den Datentyp OpeningHour
