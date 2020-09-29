@@ -1,0 +1,47 @@
+[33mcommit 24f72748ae5782c424f78e48ad966407453e4f97[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Manuel Schmid <manuel.schmid@liip.ch>
+Date:   Tue Sep 15 09:40:35 2020 +0200
+
+    Erweiterung JavaScript
+
+[33mcommit 6f064a240151448bfd3a16edae353f89a1c1f71c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Manuel Schmid <manuel.schmid@liip.ch>
+Date:   Mon Sep 14 17:07:09 2020 +0200
+
+    Zusammenfassung JavaScript
+
+[33mcommit dc04105ce5e1b51e360d80aa74df6e4c4a001953[m
+Author: Manuel Schmid <manuel.schmid@liip.ch>
+Date:   Mon Sep 14 13:28:31 2020 +0200
+
+    Ueberarbeitung Zusammenfassung
+
+[33mcommit 79f92afd1a866d07408dbdc03c0773ad10ac2d9e[m
+Author: Manuel Schmid <manuel.schmid@liip.ch>
+Date:   Mon Sep 14 13:09:20 2020 +0200
+
+    Erstellung Zusammenfassung
+
+[33mcommit abe471a349a5bef9ab33afc70c754ff9e889a2e2[m
+Author: Stefan Suter <stefan.suter@liip.ch>
+Date:   Wed Sep 9 15:59:22 2020 +0200
+
+    adapt tsconfig.json
+
+[33mcommit 044e1c2d9ffd0d973937b3e6446cc861660df4a3[m
+Author: Stefan Suter <stefan.suter@liip.ch>
+Date:   Mon Sep 7 08:57:29 2020 +0200
+
+    adapt README.md
+
+[33mcommit a8018ef19cf054875af58eee00eda09f10fb6395[m
+Author: Stefan Suter <stefan.suter@liip.ch>
+Date:   Mon Sep 7 08:52:18 2020 +0200
+
+    add example and README.md
+
+[33mcommit 2c75b2981d20b3aa6bf34ef0b4cdbbcf5f5773a6[m
+Author: Stefan Suter <stefan.suter@liip.ch>
+Date:   Mon Sep 7 08:29:17 2020 +0200
+
+    initial commit

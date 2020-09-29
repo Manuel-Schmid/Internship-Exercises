@@ -207,6 +207,18 @@ example child:
         ngOnInit() { }
     }
 
+## Was ist ein Guard?
+
+Route Guards können User von unauthrosisierter Navigation zu Teilen der App abhalten. In Angular gibt es folgende Route Guards: 
+
+* CanActivate
+* CanActivateChild
+* CanDeactivate
+* Resolve
+* CanLoad
+
+Angular route guards are interfaces which can tell the router whether or not it should allow navigation to a requested route. They make this decision by looking for a true or false return value from a class which implements the given guard interface. 
+
 ## Synchron vs Asynchron?
 
 Eine asynchrone Funktion muss, was auch immer sie tut, nicht zwingend gleichzeitig mit Ihrem Aufruf geschiehen, bei
