@@ -1,5 +1,22 @@
 # Zusammenfassung Git
 
+## Genauer Ablauf
+
+git init
+
+git add .
+
+git commit -m "initial commit"
+
+Copy the HTTPS URL of the remote repository 
+
+git remote add origin *remote repository URL*
+
+git remote -v
+
+git push -f origin master
+
+
 ## Allgemeine Befehle
 
 Ordner erstellen

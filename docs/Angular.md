@@ -26,7 +26,7 @@ NgRx stellt eine Möglichkeit zu verfügung, Daten einer Angular App als eine ei
 
 ### Was sind Actions
 
-Actions drücken *einzigartige* events aus, die in de Applikation vorkommen. Beispiele: Benutzerinteraktion mit de Seite, externe Interaktion durch Netzwerkanfragen und Interaktion mit der API werden mit actions beschrieben.
+Actions drücken *einzigartige* events aus, die in der Applikation vorkommen. Beispiele: Benutzerinteraktion mit der Seite, externe Interaktion durch Netzwerkanfragen und Interaktion mit der API werden mit actions beschrieben.
 
 Codebeispiel:
 

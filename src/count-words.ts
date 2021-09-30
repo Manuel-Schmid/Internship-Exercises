@@ -1,6 +1,6 @@
 class CountWords {
     numberOfWords(sentence: String){
-                
+        
         let sentenceArr = sentence.split(' ');
         sentenceArr = sentenceArr.map(function(sentenceItem){
             return sentenceItem.toLowerCase();

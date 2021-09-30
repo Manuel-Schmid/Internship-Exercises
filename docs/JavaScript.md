@@ -218,7 +218,7 @@ Sortieren mit Sonderzeichen
 toString()
 
     var fruits = ["Banana", "Orange", "Apple", "Mango"];
-    fruitstring = fruits.toString(); //converts Attay into String: 
+    fruitstring = fruits.toString(); //converts Array into String: 
 
 ## Destructuring
 Arrays:
