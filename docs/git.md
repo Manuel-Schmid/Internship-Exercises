@@ -51,7 +51,7 @@ Wenn man ein Branching-System verwendet, kann man vom Main-Branch auf einen seit
 ## Neues Repository erstellen
 Kopie des gewollten Repositorys erstellen
 
-    git clone 'url des gewolletn Repositorys'
+    git clone 'url des gewollten Repositorys'
 
 Eigenes Repository erstellen (mit eigener url)
 

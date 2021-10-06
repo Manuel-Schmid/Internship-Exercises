@@ -209,7 +209,7 @@ example child:
 
 ## Was ist ein Guard?
 
-Route Guards können User von unauthrosisierter Navigation zu Teilen der App abhalten. In Angular gibt es folgende Route Guards: 
+Route Guards können User von unauthorisierter Navigation zu Teilen der App abhalten. In Angular gibt es folgende Route Guards: 
 
 * CanActivate
 * CanActivateChild
@@ -221,7 +221,7 @@ Angular route guards are interfaces which can tell the router whether or not it 
 
 ## Synchron vs Asynchron?
 
-Eine asynchrone Funktion muss, was auch immer sie tut, nicht zwingend gleichzeitig mit Ihrem Aufruf geschiehen, bei
+Bei einer asynchronen Funktion muss, was auch immer sie tut, nicht zwingend gleichzeitig mit Ihrem Aufruf geschiehen, bei
 einer synchronen schon.
 ### Beispiel:
 
